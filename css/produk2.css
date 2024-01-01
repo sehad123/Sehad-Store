@@ -1,0 +1,132 @@
+.popup-product img {
+    width: 300px;
+    height: 300px;
+    margin: 0 160px;
+}
+
+.popup-product .prd {
+    height: 300px;
+}
+
+.products-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 80vh;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: none;
+    margin-top: 50px;
+}
+
+.products-popup .popup-product {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin: 2rem;
+    width: 40rem;
+}
+
+.products-popup .popup-product.active {
+    display: inline-block;
+}
+
+.popup-product ul {
+    list-style-type: none;
+    font-size: large;
+}
+
+.popup-product span {
+    position: absolute;
+    font-size: 60px;
+    z-index: 100;
+    top: 0;
+    cursor: pointer;
+    right: 20px;
+}
+
+.popup-product span:hover {
+    transform: rotate(90deg);
+}
+
+.popup-product h4 {
+    color: #444;
+    padding: 0;
+    margin-top: -20px;
+    font-size: 2.5rem;
+}
+
+.popup-product .stars {
+    padding-bottom: 10px;
+    font-size: 1.7rem;
+
+}
+
+.popup-product .stars i {
+    color: yellow;
+}
+
+.popup-product .stars .satu {
+    color: black;
+}
+
+.popup-product .stars a {
+    color: #999;
+}
+
+.popup-product p {
+    padding: 9px 0;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.popup-product button {
+    padding: 20px;
+    transform: translateY(-40px);
+}
+
+.popup-product ul li {
+    margin: 10px 0;
+}
+
+.popup-product button:hover {
+    background: #444;
+    color: #fff;
+}
+
+.popup-product button i {
+    margin: 0 10px;
+}
+
+.popup-product button {
+    font-size: large;
+}
+
+@media(max-width:768px) {
+
+    .popup-image {
+        transform: translateY(-80px);
+    }
+
+    .popup-product img {
+        margin: 0 -20px;
+    }
+
+    .popup-product .prd {
+        transform: translateY(20px);
+    }
+
+    .popup-product .stars i {
+        font-size: large;
+    }
+
+    .popup-product ul li {
+        font-size: large;
+    }
+}

@@ -1,0 +1,37 @@
+
+.row{
+    display: flex;
+}
+.row .col{
+margin: 20px;
+}
+h2{
+    margin-bottom: 20px;
+    color: red;
+}
+h4{
+    margin-bottom: 20px;
+}
+form{
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+}
+form input{
+    width: 500px;
+    height: 30px;
+}
+form button{
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+h2,h4{
+    font-size: x-large;
+}

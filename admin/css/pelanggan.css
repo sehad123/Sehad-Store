@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+}
+
+td>a:nth-child(1) {
+    padding: 20px;
+    background-color: orange;
+    color: black;
+    border-radius: 20%
+}
+
+table tr th {
+    border: 1px solid black;
+}

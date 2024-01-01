@@ -1,0 +1,26 @@
+.grafik {
+    width: 40%;
+    margin: 15px auto;
+}
+
+h2,
+h1,
+p {
+    text-align: center;
+    margin: 20px;
+    font-size: x-large;
+}
+
+.container {
+    display: flex;
+    width: 150vh;
+    height: 200px;
+    margin-top: -40px;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(to right, #f7fafd, #e3f4ff);
+    margin: 40px;
+}

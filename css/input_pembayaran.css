@@ -1,0 +1,41 @@
+h2{
+    color: red;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+div{
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+.total{
+    background-color: lightblue;
+    height: 20px;
+    padding: 20px;
+    width: 82%;
+}
+button{
+    margin-left: 100px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+input, select{
+    width: 90%;
+    margin-top: 10px;
+    font-size: large;
+    padding: 10px;
+}
+.bukti{
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.foto{
+    margin-left: 0;
+}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}

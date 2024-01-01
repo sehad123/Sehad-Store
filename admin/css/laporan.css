@@ -1,0 +1,47 @@
+.row {
+    display: flex;
+    margin: 10px auto;
+}
+
+.col {
+    margin-left: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col label {
+    font-size: large;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.col:nth-child(4) {
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+table th {
+    border: 2px solid black;
+}
+
+table tr td {
+    border: 2px solid black;
+}

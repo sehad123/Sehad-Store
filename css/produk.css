@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul li h4,
+ul li p {
+    color: black;
+}
+
+h4:nth-child(1) {
+    display: none;
+}
+
+@media screen and (min-width: 480px) and (max-width: 576px) {
+    .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+        transform: translateX(60px);
+    }
+}
+
+/* Tablet breakpoint */
+@media screen and (min-width: 576px) {
+    .col {
+        margin: 0.5%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 719px) {
+    .col-4 {
+        width: 48.7%;
+    }
+
+}
+
+/* Laptop breakpoint */
+@media screen and (min-width: 720px) {
+    .col-4 p {
+        float: left;
+        width: 50%;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .col-4 button {
+        float: right;
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 991px) {
+    .col-4 {
+        width: 31.3%;
+    }
+}
+
+/* Desktop breakpoint */
+@media screen and (min-width: 992px) {
+    .col-4 {
+        width: 23.75%;
+    }
+}
+
+.col-4 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 5px;
+    height: 320px;
+    margin: 15px;
+    color: #b8b7b7;
+    box-shadow: 0px 0px 10px 4px #eaeaea;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.prd {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.prd {
+    position: relative;
+}
+
+.prd>img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+input+img {
+    position: absolute;
+    right: 100px;
+    top: 85px;
+    z-index: -1;
+}
+
+.prd img {
+    width: 100%;
+    height: auto;
+}
+
+.prd img:hover {
+    transform: scale(0.8);
+    transition: all 0.5s;
+}
+
+.col-4 h4,
+.col-4 p {
+    box-sizing: border-box;
+}
+
+.col-4 h4 {
+    padding: 12px 10px;
+    font-size: large;
+
+}
+
+.col-4 p {
+    float: left;
+    padding: 0 8px;
+    width: 55%;
+    margin-top: -5px;
+    font-size: large;
+}
+
+.col-4 button {
+    float: right;
+    margin-right: 8px;
+    width: 35%;
+}
+
+.extra {
+    width: 100%;
+    height: 5px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.extra #src {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.extra #text {
+    margin: auto;
+    text-align: center;
+}
+
+p>img {
+    margin-top: 5px;
+
+}
+
+.container h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+form input {
+    width: 98%;
+}

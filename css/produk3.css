@@ -1,0 +1,28 @@
+li > p{
+    font-size: 10px;
+    margin-left: -20px;
+    
+    }
+.beli{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    background:orange;
+    transform: translateY(7px);
+}
+.detail{
+    text-decoration: none;
+    margin-left: -5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    color: black;
+}
+li i{
+    transform: translateY(-7px);
+    font-size: large;
+    margin-bottom: 12px;
+    color: yellow;
+}
+.satu{
+    color: black;
+}

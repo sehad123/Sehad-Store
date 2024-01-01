@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+}
+h3{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+}
+.col{
+margin: 20px auto;
+}
+table th{
+    border: 2px solid black;
+    padding: 10px 60px;
+    background: lightblue;
+}
+table tr td{
+    border: 2px solid black;
+    padding: 20px;
+}
+.col p{
+    margin: 10px 0;
+
+}
+table{
+    margin-top: -20px;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+.bayar{
+    background: lightblue;
+    margin-left: 80px;
+    width: 700px;
+    height: 200px;
+}

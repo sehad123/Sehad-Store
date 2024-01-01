@@ -1,0 +1,48 @@
+td>a:nth-child(1) {
+    padding: 20px;
+    background-color: orange;
+    color: black;
+    border-radius: 20%
+}
+
+td>a:nth-child(2) {
+    padding: 20px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 20%
+}
+
+td>a:nth-child(1):hover {
+    background-color: black;
+    color: #fff;
+}
+
+td>a:nth-child(2):hover {
+    background-color: black;
+    color: #fff;
+}
+
+table th {
+    border: 1px solid black;
+}
+
+form input {
+    width: 130vh;
+    margin: 15px 20px;
+    height: 20px;
+    margin-left: 400px;
+}
+
+form button {
+    margin-left: -20px;
+}
+
+h2+a {
+    margin-left: 400px;
+    font-size: large;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 100px;
+}

@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(90deg, #3575ff 0%, #f192bb 100%);
+}
+
+.btn-floating {
+    position: fixed;
+    right: 25px;
+    overflow: hidden;
+    width: 60px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 9999;
+    color: white;
+    transition: .2s;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.btn-floating:hover {
+    width: auto;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-floating span {
+    font-size: 16px;
+    margin-left: 5px;
+    transition: .2s;
+    line-height: 0px;
+    display: none;
+}
+
+.btn-floating:hover span {
+    display: inline-block;
+}
+
+.btn-floating:hover img {
+    margin-bottom: -30px;
+}
+
+.btn-floating.whatsapp {
+    bottom: 25px;
+    background-color: #34af23;
+    border: 2px solid #fff;
+}
+
+.btn-floating.whatsapp:hover {
+    background-color: #1f7a12;
+}
+
+.btn-floating.facebook {
+    bottom: 85px;
+    background-color: #1876f3;
+    border: 2px solid #fff;
+}
+
+.btn-floating.facebook:hover {
+    background-color: #1876f3;
+}
+
+.evaluation p {
+    transform: translateX(20px);
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.container p a:last-child {
+    color: #1876f3;
+}
+
+p {
+    font-size: large;
+}
+
+h3,
+h4 {
+    font-size: large;
+}
+
+@media (max-width: 650px) {
+    .evaluation p {
+        transform: translateX(20px);
+        margin-left: 130px;
+        margin-top: -50px;
+    }
+
+    .container h3 {
+        transform: translateX(-20px);
+    }
+
+    .container h4 {
+        font-size: large;
+    }
+
+    iframe {
+        margin: 20px 10px;
+        transform: translateX(-20px);
+    }
+}

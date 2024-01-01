@@ -1,0 +1,15 @@
+form {
+  width: 900px;
+  height: 920px;
+  background-color: lightblue;
+  opacity: 0.8;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.img-preview {
+  height: 200px;
+  width: 200px;
+  display: none;
+  margin: 10px 0;
+}

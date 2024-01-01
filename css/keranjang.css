@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+table th{
+    border: 2px solid black;
+    padding: 10px 80px;
+    background-color: lightskyblue;
+}
+table tr td{
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+}
+.konten a{
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+.konten a:nth-child(1){
+    background-color: red;
+}
+.lanjut{
+    background-color: orange;
+    margin-left: 20px;
+}
+.cek{
+    background-color: blue;
+}

@@ -1,0 +1,48 @@
+    h2 {
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col {
+        margin: 20px;
+    }
+
+    table tr td {
+        border: none;
+        border-top: 2px solid black;
+        padding-left: 400px;
+    }
+
+    table tr th {
+        background-color: lightgrey;
+        border-top: 2px solid black;
+        padding: 20px;
+    }
+
+    form label {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    form input,
+    select {
+        width: 100vh;
+        height: 30px;
+        margin: 10px 0;
+    }
+
+    button {
+        padding: 10px 15px;
+        background-color: lightgreen;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: black;
+        color: #fff;
+    }

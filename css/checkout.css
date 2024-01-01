@@ -1,0 +1,97 @@
+table{
+    margin: 20px;
+    border-collapse: collapse;
+}
+table tr th{
+    padding: 10px 90px;
+    border: 2px solid black;
+    background: lightblue;
+}
+table tr td{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.col{
+    margin-right: 90px;
+    margin-left: 30px;
+}
+.col input{
+    font-size: large;
+    width: 500px;
+    padding: 8px 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+    border:1px solid silver
+}
+.col label{
+    margin-left: 170px;
+    font-size: large;
+}
+textarea{
+    margin: 10px 30px;
+    width: 91%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: large;
+}
+.alamat{
+    margin-left: 30px;
+    font-weight: bold;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col2{
+    margin-left: 30px;
+}
+.col2 input, .col2 select{
+    font-size: large;
+    width: 280px;
+    padding: 8px 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:1px solid silver
+}
+.col2 label{
+    margin-left: 10px;
+    font-size: large;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col3{
+    margin-left: 30px;
+}
+.col3 input, .col3 select{
+    font-size: large;
+    width: 280px;
+    padding: 8px 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:1px solid silver
+}
+.col3 label{
+    margin-left: 10px;
+    font-size: large;
+}
+button{
+    margin: 10px 30px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}

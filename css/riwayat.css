@@ -1,0 +1,36 @@
+table tr th{
+    border: 2px solid black;
+    padding: 10px 100px;
+    background-color: lightskyblue;
+}
+table tr td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+.nota{
+    padding: 10px 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    color: black;
+}
+.input{
+    padding: 10px 15px;
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+}
+.lihat{
+    padding: 10px 15px;
+    background-color: green;
+    border-radius: 10px;
+    color: #fff;
+}
+a:hover{
+    background-color: black;
+    color: #fff;
+}

@@ -1,0 +1,34 @@
+.bayar {
+    height: 240px;
+}
+
+.bayar ul li {
+    color: black;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.bayar p {
+    font-size: large;
+}
+
+table td {
+    text-align: center;
+}
+table{
+    margin-left:80px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+    margin-left:80px;
+    transform:translateY(-20px);
+    text-decoration:none;
+}
+
+.input:hover {
+    background: black;
+}

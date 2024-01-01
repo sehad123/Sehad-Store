@@ -1,0 +1,29 @@
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    margin: 20px auto;
+}
+
+table tr th {
+    border: 2px solid black;
+    padding: 20px 70px;
+}
+
+table tr td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.col p {
+    margin: 10px 0;
+}
+
+table {
+    margin-top: -20px;
+}
