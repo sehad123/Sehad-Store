@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/home.css">
 
 <?php
-$koneksi = mysqli_connect("localhost", "root", "", "sehadstore");
+$koneksi = mysqli_connect("localhost", "root", "", "sehaddstore");
 $penjualan = mysqli_query($koneksi, "SELECT jumlah FROM kategori order by id_kategori asc");
 $merk = mysqli_query($koneksi, "SELECT nama_kategori FROM kategori order by id_kategori asc");
 
@@ -78,23 +78,21 @@ $pecah4 = $ambil4->fetch_assoc();
   var ctx = document.getElementById("piechart").getContext("2d");
   var data = {
     labels: [<?php while ($p = mysqli_fetch_array($merk)) {
-      echo '"' . $p['nama_kategori'] . '",';
-    } ?>],
-    datasets: [
-      {
-        label: "Penjualan Barang",
-        data: [<?php while ($p = mysqli_fetch_array($penjualan)) {
-          echo '"' . $p['jumlah'] . '",';
-        } ?>],
-        backgroundColor: [
-          '#29B0D0',
-          '#2A516E',
-          '#F07124',
-          '#CBE0E3',
-          '#979193'
-        ]
-      }
-    ]
+                echo '"' . $p['nama_kategori'] . '",';
+              } ?>],
+    datasets: [{
+      label: "Penjualan Barang",
+      data: [<?php while ($p = mysqli_fetch_array($penjualan)) {
+                echo '"' . $p['jumlah'] . '",';
+              } ?>],
+      backgroundColor: [
+        '#29B0D0',
+        '#2A516E',
+        '#F07124',
+        '#CBE0E3',
+        '#979193'
+      ]
+    }]
   };
 
   var myPieChart = new Chart(ctx, {
@@ -108,23 +106,21 @@ $pecah4 = $ambil4->fetch_assoc();
   var ctx = document.getElementById("barchart").getContext("2d");
   var data = {
     labels: [<?php while ($p = mysqli_fetch_array($merk1)) {
-      echo '"' . $p['nama_produk'] . '",';
-    } ?>],
-    datasets: [
-      {
-        label: "Penjualan Barang",
-        data: [<?php while ($p = mysqli_fetch_array($penjualan1)) {
-          echo '"' . $p['stok_produk'] . '",';
-        } ?>],
-        backgroundColor: [
-          '#29B0D0',
-          '#2A516E',
-          '#F07124',
-          '#CBE0E3',
-          '#979193'
-        ]
-      }
-    ]
+                echo '"' . $p['nama_produk'] . '",';
+              } ?>],
+    datasets: [{
+      label: "Penjualan Barang",
+      data: [<?php while ($p = mysqli_fetch_array($penjualan1)) {
+                echo '"' . $p['stok_produk'] . '",';
+              } ?>],
+      backgroundColor: [
+        '#29B0D0',
+        '#2A516E',
+        '#F07124',
+        '#CBE0E3',
+        '#979193'
+      ]
+    }]
   };
 
   var myBarChart = new Chart(ctx, {

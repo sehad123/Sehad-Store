@@ -1,3 +1,2 @@
 <?php
-$koneksi = new mysqli("localhost", "root", "", "sehadstore");
-?>
+$koneksi = new mysqli("localhost", "root", "", "sehaddstore");
